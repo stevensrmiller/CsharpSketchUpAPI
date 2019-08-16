@@ -43,6 +43,13 @@
     <Compile Include="ComponentIDefinitionSetName.cs" />
     <Compile Include="ComponentInstanceSetName.cs" />
     <Compile Include="ComponentInstanceSetTransform.cs" />
+    <Compile Include="CameraCreate.cs" />
+    <Compile Include="GeometryInputFaceAddInnerLoop.cs" />
+    <Compile Include="ModelGetCamera.cs" />
+    <Compile Include="TransformationNonUniformScale.cs" />
+    <Compile Include="TransformationMultiply.cs" />
+    <Compile Include="CameraSetOrientation.cs" />
+    <Compile Include="TransformationTranslation.cs" />
     <Compile Include="Vector3D.cs" />
     <Compile Include="TransformationRotation.cs" />
     <Compile Include="ComponentDefintionCreateInstance.cs" />

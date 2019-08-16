@@ -39,6 +39,7 @@ namespace ExLumina.SketchUp.API
             internal IntPtr intPtr;
         }
 
+        public class CameraRef : IntPtrRef { }
         public class ComponentDefinitionRef : IntPtrRef { }
         public class ComponentInstanceRef : IntPtrRef { }
         public class EntitiesRef : IntPtrRef { }
