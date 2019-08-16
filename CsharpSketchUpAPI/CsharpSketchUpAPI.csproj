@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84CAF3B2-9451-4423-91B1-167D75BC25C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExLumina.SketchUp.API</RootNamespace>
+    <AssemblyName>CsharpSketchUpAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComponentIDefinitionSetName.cs" />
+    <Compile Include="ComponentInstanceSetName.cs" />
+    <Compile Include="ComponentInstanceSetTransform.cs" />
+    <Compile Include="Vector3D.cs" />
+    <Compile Include="TransformationRotation.cs" />
+    <Compile Include="ComponentDefintionCreateInstance.cs" />
+    <Compile Include="EntitiesAddInstance.cs" />
+    <Compile Include="GeometryInputFaceSetFrontMaterial.cs" />
+    <Compile Include="ComponentDefinitionCreate.cs" />
+    <Compile Include="Transformation.cs" />
+    <Compile Include="MaterialSetName.cs" />
+    <Compile Include="MaterialCreate.cs" />
+    <Compile Include="MaterialInputStruct.cs" />
+    <Compile Include="MaterialSetColor.cs" />
+    <Compile Include="ModelAddComponentDefinitions.cs" />
+    <Compile Include="ModelAddMaterials.cs" />
+    <Compile Include="MaterialSetTexture.cs" />
+    <Compile Include="MaterialInput.cs" />
+    <Compile Include="MaterialGetType.cs" />
+    <Compile Include="ComponentDefintionGetEntities.cs" />
+    <Compile Include="Point2D.cs" />
+    <Compile Include="Color.cs" />
+    <Compile Include="Point3D.cs" />
+    <Compile Include="Initialize.cs" />
+    <Compile Include="ModelGetOptionsManager.cs" />
+    <Compile Include="OptionsManagerGetOptionsProviderByName.cs" />
+    <Compile Include="OptionsManagerGetOptionsProviderNames.cs" />
+    <Compile Include="ModelGetEntities.cs" />
+    <Compile Include="ModelGetStyles.cs" />
+    <Compile Include="TextureCreateFromFile.cs" />
+    <Compile Include="TypedValueCreate.cs" />
+    <Compile Include="StringCreate.cs" />
+    <Compile Include="StringGetUTF8Length.cs" />
+    <Compile Include="StringGetUTF8.cs" />
+    <Compile Include="TypedValueSetInt32.cs" />
+    <Compile Include="OptionsProviderSetValue.cs" />
+    <Compile Include="GeometryInputCreate.cs" />
+    <Compile Include="LoopInputCreate.cs" />
+    <Compile Include="GeometryInputAddVertex.cs" />
+    <Compile Include="LoopInputAddVertexIndex.cs" />
+    <Compile Include="LoopInputEdgeSetSoft.cs" />
+    <Compile Include="LoopInputEdgeSetSmooth.cs" />
+    <Compile Include="GeometryInputAddFace.cs" />
+    <Compile Include="StylesAddStyle.cs" />
+    <Compile Include="OptionsProviderGetNumKeys.cs" />
+    <Compile Include="OptionsManagerGetNumOptionsProviders.cs" />
+    <Compile Include="FaceCreate.cs" />
+    <Compile Include="EntitiesAddFaces.cs" />
+    <Compile Include="EntitiesFill.cs" />
+    <Compile Include="ModelSaveToFileWithVersion.cs" />
+    <Compile Include="ModelSaveToFile.cs" />
+    <Compile Include="TypedValueRelease.cs" />
+    <Compile Include="StringRelease.cs" />
+    <Compile Include="GeometryInputRelease.cs" />
+    <Compile Include="ModelRelease.cs" />
+    <Compile Include="Terminate.cs" />
+    <Compile Include="ModelCreate.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
