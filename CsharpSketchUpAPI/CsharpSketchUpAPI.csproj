@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ComponentIDefinitionSetName.cs" />
+    <Compile Include="ComponentDefinitionSetDescription.cs" />
+    <Compile Include="ComponentDefinitionSetName.cs" />
     <Compile Include="ComponentInstanceSetName.cs" />
     <Compile Include="ComponentInstanceSetTransform.cs" />
     <Compile Include="CameraCreate.cs" />
@@ -52,7 +53,7 @@
     <Compile Include="TransformationTranslation.cs" />
     <Compile Include="Vector3D.cs" />
     <Compile Include="TransformationRotation.cs" />
-    <Compile Include="ComponentDefintionCreateInstance.cs" />
+    <Compile Include="ComponentDefinitionCreateInstance.cs" />
     <Compile Include="EntitiesAddInstance.cs" />
     <Compile Include="GeometryInputFaceSetFrontMaterial.cs" />
     <Compile Include="ComponentDefinitionCreate.cs" />
@@ -66,7 +67,7 @@
     <Compile Include="MaterialSetTexture.cs" />
     <Compile Include="MaterialInput.cs" />
     <Compile Include="MaterialGetType.cs" />
-    <Compile Include="ComponentDefintionGetEntities.cs" />
+    <Compile Include="ComponentDefinitionGetEntities.cs" />
     <Compile Include="Point2D.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="Point3D.cs" />

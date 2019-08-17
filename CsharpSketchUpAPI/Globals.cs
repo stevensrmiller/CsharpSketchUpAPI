@@ -1,11 +1,11 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace ExLumina.SketchUp.API
 {
     public static partial class SU
     {
-        private const string LIB =
-            @"D:\Program Files\SketchUp API\binaries\sketchup\x64\SketchUpAPI";
+        private const string LIB = "SketchUpAPI";
 
         public const double MetersToInches = 39.37007874;
 
