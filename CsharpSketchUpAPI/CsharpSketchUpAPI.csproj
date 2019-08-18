@@ -46,7 +46,9 @@
     <Compile Include="ComponentInstanceSetTransform.cs" />
     <Compile Include="CameraCreate.cs" />
     <Compile Include="GeometryInputFaceAddInnerLoop.cs" />
+    <Compile Include="MaterialRelease.cs" />
     <Compile Include="ModelGetCamera.cs" />
+    <Compile Include="LoopInputRelease.cs" />
     <Compile Include="TransformationNonUniformScale.cs" />
     <Compile Include="TransformationMultiply.cs" />
     <Compile Include="CameraSetOrientation.cs" />

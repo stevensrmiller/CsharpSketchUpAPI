@@ -46,7 +46,7 @@
             SU.GeometryInputAddFace(geometry, loop, out faceIndex);
 
             SU.MaterialRef material = new SU.MaterialRef();
-            SU.MaterialCreate(material);
+            SU.MaterialCreate(material); 
             SU.MaterialSetName(material, "Pure Red");
             SU.MaterialSetColor(material, new SU.Color { red = 0xFF, alpha = 0xFF });
             SU.MaterialInput materialInput = new SU.MaterialInput();
