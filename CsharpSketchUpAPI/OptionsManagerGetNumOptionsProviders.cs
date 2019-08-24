@@ -8,11 +8,11 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUOptionsManagerGetNumOptionsProviders")]
         static extern int SUOptionsManagerGetNumOptionsProviders(
             IntPtr opMgrRef,
-            out int num);
+            out long num);
 
         public static void OptionsManagerGetNumOptionsProviders(
             OptionsManagerRef opMgrRef,
-            out int num)
+            out long num)
         {
             ThrowOut(
                 SUOptionsManagerGetNumOptionsProviders(

@@ -9,12 +9,12 @@ namespace ExLumina.SketchUp.API
         static extern int SUGeometryInputAddFace(
             IntPtr geometryInputRef,
             ref IntPtr loopInputRef,
-            out int index);
+            out long index);
 
         public static void GeometryInputAddFace(
             GeometryInputRef geometryInputRef,
             LoopInputRef loopInputRef,
-            out int index)
+            out long index)
         {
             ThrowOut(
                 SUGeometryInputAddFace(

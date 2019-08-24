@@ -18,7 +18,7 @@ namespace ExLumina.SketchUp.API
                 SUModelGetEntities(
                     modelRef.intPtr,
                     ref entitiesRef.intPtr),
-                "Could not get entities.");
+                "Could not get model entities.");
         }
     }
 }

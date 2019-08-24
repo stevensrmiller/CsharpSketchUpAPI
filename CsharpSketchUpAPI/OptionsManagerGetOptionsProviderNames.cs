@@ -8,15 +8,15 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUOptionsManagerGetOptionsProviderNames")]
         static extern int SUOptionsManagerGetOptionsProviderNames(
             IntPtr opMgrRef,
-            int len,
+            long len,
             IntPtr[] stringRef,
-            out int retrieved);
+            out long retrieved);
 
         public static void OptionsManagerGetOptionsProviderNames(
             OptionsManagerRef opMgrRef,
-            int len,
+            long len,
             StringRef[] strings,
-            out int retrieved)
+            out long retrieved)
         {
             IntPtr[] intPtrs = new IntPtr[strings.Length];
 
@@ -26,7 +26,7 @@ namespace ExLumina.SketchUp.API
                     len,
                     intPtrs,
                     out retrieved),
-                "Could not get proider names.");
+                "Could not get provider names.");
 
             for (int s = 0; s < strings.Length; ++s)
             {

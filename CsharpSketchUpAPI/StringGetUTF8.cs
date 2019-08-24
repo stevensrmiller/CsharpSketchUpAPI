@@ -8,15 +8,15 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUStringGetUTF8")]
         static extern int SUStringGetUTF8(
             IntPtr stringRef,
-            int req,
+            long req,
             byte[] buff,
-            out int ret);
+            out long ret);
 
         public static void StringGetUTF8(
             StringRef stringRef,
-            int req,
+            long req,
             byte[] buff,
-            out int ret)
+            out long ret)
         {
             ThrowOut(
                 SUStringGetUTF8(

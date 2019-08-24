@@ -45,7 +45,7 @@
             SU.LoopInputAddVertexIndex(loop, 2);
             SU.LoopInputAddVertexIndex(loop, 3);
 
-            int faceIndex;
+            long faceIndex;
 
             SU.GeometryInputAddFace(geometry, loop, out faceIndex);
 

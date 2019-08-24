@@ -18,7 +18,7 @@ namespace ExLumina.SketchUp.API
                 SUComponentInstanceSetTransform(
                     instanceRef.intPtr,
                     ref trans),
-                "Could not set transform.");
+                "Could not set instance transform.");
         }
     }
 }

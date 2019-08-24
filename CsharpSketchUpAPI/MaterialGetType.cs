@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUMaterialGetType")]
         static extern int SUMaterialGetType(
             IntPtr materialRef,
-            out int type);
+            out int type); // really an enum, not an int
 
         public static void MaterialGetType(
             MaterialRef materialRef,

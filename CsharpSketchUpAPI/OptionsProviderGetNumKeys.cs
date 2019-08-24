@@ -8,9 +8,11 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUOptionsProviderGetNumKeys")]
         static extern int SUOptionsProviderGetNumKeys(
             IntPtr opProvRef,
-            out int num);
+            out long num);
 
-        public static void OptionsProviderGetNumKeys(OptionsProviderRef opProvRef, out int num)
+        public static void OptionsProviderGetNumKeys(
+            OptionsProviderRef opProvRef,
+            out long num)
         {
             ThrowOut(
                 SUOptionsProviderGetNumKeys(

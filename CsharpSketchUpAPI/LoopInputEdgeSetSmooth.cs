@@ -8,12 +8,12 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SULoopInputEdgeSetSmooth")]
         static extern int SULoopInputEdgeSetSmooth(
             IntPtr loopInputRef,
-            int index,
+            long index,
             bool smooth);
 
         public static void LoopInputEdgeSetSmooth(
             LoopInputRef loopInputRef,
-            int index,
+            long index,
             bool smooth)
         {
             ThrowOut(

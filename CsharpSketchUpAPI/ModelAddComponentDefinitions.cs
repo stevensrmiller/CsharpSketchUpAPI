@@ -8,12 +8,12 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUModelAddComponentDefinitions")]
         static extern int SUModelAddComponentDefinitions(
             IntPtr modelRef,
-            int len,
+            long len,
             IntPtr[] componentDefRefs);
 
         public static void ModelAddComponentDefinitions(
             ModelRef modelRef,
-            int len,
+            long len,
             ComponentDefinitionRef[] componentDefRefs)
         {
             IntPtr[] intPtrs = new IntPtr[componentDefRefs.Length];

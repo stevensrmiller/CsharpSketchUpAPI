@@ -9,7 +9,7 @@ namespace ExLumina.SketchUp.API
         static extern int SUModelSaveToFileWithVersion(
             IntPtr modelRef,
             string name,
-            int version);
+            int version); // really an enum, not an int
 
         public static void ModelSaveToFileWithVersion(
             ModelRef modelRef,

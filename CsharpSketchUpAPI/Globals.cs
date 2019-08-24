@@ -45,6 +45,7 @@ namespace ExLumina.SketchUp.API
         public class EntitiesRef : IntPtrRef { }
         public class FaceRef : IntPtrRef { }
         public class GeometryInputRef : IntPtrRef { }
+        public class GroupRef : IntPtrRef { }
         public class LoopInputRef : IntPtrRef { }
         public class MaterialRef : IntPtrRef { }
         public class ModelRef : IntPtrRef { }

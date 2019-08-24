@@ -49,7 +49,7 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(8, 256);
+            this.btnExit.Location = new System.Drawing.Point(8, 248);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(152, 64);
             this.btnExit.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             this.btnRunExamples.Enabled = false;
             this.btnRunExamples.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRunExamples.Location = new System.Drawing.Point(8, 88);
+            this.btnRunExamples.Location = new System.Drawing.Point(8, 80);
             this.btnRunExamples.Name = "btnRunExamples";
             this.btnRunExamples.Size = new System.Drawing.Size(152, 64);
             this.btnRunExamples.TabIndex = 2;
@@ -88,11 +88,11 @@
             this.clbList.Size = new System.Drawing.Size(336, 214);
             this.clbList.TabIndex = 4;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(538, 329);
+            this.ClientSize = new System.Drawing.Size(538, 319);
             this.Controls.Add(this.clbList);
             this.Controls.Add(this.lblLocation);
             this.Controls.Add(this.btnRunExamples);
@@ -100,7 +100,7 @@
             this.Controls.Add(this.btnSetLocation);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CsharpSketchUpAPI Examples";
             this.ResumeLayout(false);

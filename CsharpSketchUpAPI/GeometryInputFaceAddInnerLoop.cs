@@ -8,12 +8,12 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUGeometryInputFaceAddInnerLoop")]
         static extern int SUGeometryInputFaceAddInnerLoop(
             IntPtr geometryInputRef,
-            int faceIndex,
+            long faceIndex,
             ref IntPtr loopInputRef);
 
         public static void GeometryInputFaceAddInnerLoop(
             GeometryInputRef geometryInputRef,
-            int faceIndex,
+            long faceIndex,
             LoopInputRef loopInputRef)
         {
             ThrowOut(

@@ -8,12 +8,12 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUModelAddMaterials")]
         static extern int SUModelAddMaterials(
             IntPtr modelRef,
-            int len,
+            long len,
             IntPtr[] materialRefs);
 
         public static void ModelAddMaterials(
             ModelRef modelRef,
-            int len,
+            long len,
             MaterialRef[] materialRefs)
         {
             IntPtr[] intPtrs = new IntPtr[materialRefs.Length];

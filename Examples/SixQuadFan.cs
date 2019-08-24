@@ -70,7 +70,7 @@ namespace ExLumina.SketchUp.API.Examples
             SU.LoopInputAddVertexIndex(loop, 2);
             SU.LoopInputAddVertexIndex(loop, 3);
 
-            int faceIndex;
+            long faceIndex;
 
             SU.GeometryInputAddFace(bladeGeo, loop, out faceIndex);
 

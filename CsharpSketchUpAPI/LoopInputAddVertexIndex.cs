@@ -8,11 +8,11 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SULoopInputAddVertexIndex")]
         static extern int SULoopInputAddVertexIndex(
             IntPtr loopInputRef,
-            int index);
+            long index);
 
         public static void LoopInputAddVertexIndex(
             LoopInputRef loopInputRef,
-            int index)
+            long index)
         {
             ThrowOut(
                 SULoopInputAddVertexIndex(

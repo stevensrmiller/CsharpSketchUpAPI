@@ -40,15 +40,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GroupSetDescription.cs" />
     <Compile Include="ComponentDefinitionSetDescription.cs" />
     <Compile Include="ComponentDefinitionSetName.cs" />
+    <Compile Include="GroupSetName.cs" />
     <Compile Include="ComponentInstanceSetName.cs" />
+    <Compile Include="GroupSetTransform.cs" />
     <Compile Include="ComponentInstanceSetTransform.cs" />
     <Compile Include="CameraCreate.cs" />
+    <Compile Include="GroupCreate.cs" />
     <Compile Include="GeometryInputFaceAddInnerLoop.cs" />
+    <Compile Include="LoopInputAddVertexIndex.cs" />
     <Compile Include="MaterialRelease.cs" />
     <Compile Include="ModelGetCamera.cs" />
     <Compile Include="LoopInputRelease.cs" />
+    <Compile Include="GroupGetEntities.cs" />
+    <Compile Include="ModelCreateFromFile.cs" />
+    <Compile Include="EntitiesGetNumFaces.cs" />
+    <Compile Include="EntitiesGetFaces.cs" />
     <Compile Include="TransformationNonUniformScale.cs" />
     <Compile Include="TransformationMultiply.cs" />
     <Compile Include="CameraSetOrientation.cs" />
@@ -89,7 +98,7 @@
     <Compile Include="GeometryInputCreate.cs" />
     <Compile Include="LoopInputCreate.cs" />
     <Compile Include="GeometryInputAddVertex.cs" />
-    <Compile Include="LoopInputAddVertexIndex.cs" />
+    <Compile Include="EntitiesAddGroup.cs" />
     <Compile Include="LoopInputEdgeSetSoft.cs" />
     <Compile Include="LoopInputEdgeSetSmooth.cs" />
     <Compile Include="GeometryInputAddFace.cs" />

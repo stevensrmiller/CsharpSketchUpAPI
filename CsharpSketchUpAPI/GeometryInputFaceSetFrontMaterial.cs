@@ -8,12 +8,12 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUGeometryInputFaceSetFrontMaterial")]
         static extern int SUGeometryInputFaceSetFrontMaterial(
             IntPtr geometryRef,
-            int faceIndex,
+            long faceIndex,
             ref MaterialInputStruct materialInput);
 
         public static void GeometryInputFaceSetFrontMaterial(
             GeometryInputRef geometryRef,
-            int faceIndex,
+            long faceIndex,
             MaterialInput materialInput)
         {
             MaterialInputStruct mis = materialInput.materialInputStruct();
