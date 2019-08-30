@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -40,7 +41,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GroupSetDescription.cs" />
+    <Compile Include="ComponentDefinitionGetDescription.cs" />
+    <Compile Include="GroupGetName.cs" />
+    <Compile Include="EdgeGetSoft.cs" />
+    <Compile Include="EdgeGetSmooth.cs" />
+    <Compile Include="EdgeGetEndVertex.cs" />
+    <Compile Include="EntitiesGetGroups.cs" />
+    <Compile Include="EntitiesGetNumGroups.cs" />
+    <Compile Include="FaceGetOuterLoop.cs" />
+    <Compile Include="FaceGetFrontMaterial.cs" />
+    <Compile Include="GroupGetTransform.cs" />
+    <Compile Include="ImageRepSetData.cs" />
+    <Compile Include="ImageRepGetDataSize.cs" />
+    <Compile Include="ImageRepGetData.cs" />
+    <Compile Include="ImageRepGetPixelDimensions.cs" />
+    <Compile Include="ImageRepGetRowPadding.cs" />
+    <Compile Include="GetColorOrder.cs" />
+    <Compile Include="LoopGetVertices.cs" />
+    <Compile Include="LoopGetEdges.cs" />
+    <Compile Include="LoopGetNumVertices.cs" />
+    <Compile Include="ImageRepCreate.cs" />
+    <Compile Include="MaterialGetNameLegacyBehavior.cs" />
+    <Compile Include="ComponentDefinitionGetName.cs" />
+    <Compile Include="MaterialGetColorizeType.cs" />
+    <Compile Include="MaterialGetColor.cs" />
+    <Compile Include="MaterialSetColorizeType.cs" />
+    <Compile Include="MaterialGetTexture.cs" />
+    <Compile Include="TextureGetColorizedImageRep.cs" />
+    <Compile Include="TextureGetImageRep.cs" />
+    <Compile Include="ModelGetMaterials.cs" />
+    <Compile Include="ModelGetComponentDefinitions.cs" />
+    <Compile Include="ModelGetNumMaterials.cs" />
+    <Compile Include="ModelGetNumComponentDefinitions.cs" />
+    <Compile Include="FaceGetUVHelper.cs" />
+    <Compile Include="ImageRepRelease.cs" />
+    <Compile Include="ImageRepLoadFile.cs" />
+    <Compile Include="TextureRelease.cs" />
+    <Compile Include="TextureWriteToFile.cs" />
+    <Compile Include="TextureCreateFromImageRep.cs" />
+    <Compile Include="ColorOrder.cs" />
+    <Compile Include="UVQ.cs" />
+    <Compile Include="UVHelperRelease.cs" />
+    <Compile Include="UVHelperGetFrontUVQ.cs" />
+    <Compile Include="VertexGetPosition.cs" />
+    <Compile Include="FaceGetEdges.cs" />
+    <Compile Include="FaceGetNumEdges.cs" />
+    <Compile Include="EdgeGetStartVertex.cs" />
     <Compile Include="ComponentDefinitionSetDescription.cs" />
     <Compile Include="ComponentDefinitionSetName.cs" />
     <Compile Include="GroupSetName.cs" />

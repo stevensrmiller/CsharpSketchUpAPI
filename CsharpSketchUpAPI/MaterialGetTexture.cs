@@ -5,20 +5,20 @@ namespace ExLumina.SketchUp.API
 {
     public static partial class SU
     {
-        [DllImport(LIB, EntryPoint = "SUMaterialSetTexture")]
-        static extern int SUMaterialSetTexture(
+        [DllImport(LIB, EntryPoint = "SUMaterialGetTexture")]
+        static extern int SUMaterialGetTexture(
             IntPtr materialRef,
-            IntPtr textureRef);
+            out IntPtr textureRef);
 
-        public static void MaterialSetTexture(
+        public static void MaterialGetTexture(
             MaterialRef materialRef,
             TextureRef textureRef)
         {
             ThrowOut(
-                SUMaterialSetTexture(
+                SUMaterialGetTexture(
                     materialRef.intPtr,
-                    textureRef.intPtr),
-                "Could not set texture.");
+                    out textureRef.intPtr),
+                "Could not get texture.");
         }
     }
 }

@@ -14,6 +14,13 @@ namespace ExLumina.SketchUp.API
         public const int LengthFormat_Engineering = 2;
         public const int LengthFormat_Fractional = 3;
 
+        public const int MaterialColorizeType_Shift = 0;
+        public const int MaterialColorizeType_Tint = 1;
+
+        public const int MaterialType_Colored = 0;
+        public const int MaterialType_Textured = 1;
+        public const int MaterialType_ColorizedTexture = 2;
+
         public const int ModelUnits_Inches = 0;
         public const int ModelUnits_Feet = 1;
         public const int ModelUnits_Millimeters = 2;
@@ -42,11 +49,14 @@ namespace ExLumina.SketchUp.API
         public class CameraRef : IntPtrRef { }
         public class ComponentDefinitionRef : IntPtrRef { }
         public class ComponentInstanceRef : IntPtrRef { }
+        public class EdgeRef : IntPtrRef { }
         public class EntitiesRef : IntPtrRef { }
         public class FaceRef : IntPtrRef { }
         public class GeometryInputRef : IntPtrRef { }
         public class GroupRef : IntPtrRef { }
+        public class ImageRepRef : IntPtrRef { }
         public class LoopInputRef : IntPtrRef { }
+        public class LoopRef : IntPtrRef { }
         public class MaterialRef : IntPtrRef { }
         public class ModelRef : IntPtrRef { }
         public class OptionsManagerRef : IntPtrRef { }
@@ -54,7 +64,10 @@ namespace ExLumina.SketchUp.API
         public class StringRef : IntPtrRef { }
         public class StylesRef : IntPtrRef { }
         public class TextureRef : IntPtrRef { }
+        public class TextureWriterRef : IntPtrRef { }
         public class TypedValueRef : IntPtrRef { }
+        public class UVHelperRef : IntPtrRef { }
+        public class VertexRef : IntPtrRef { }
 
         static void ThrowOut(
             int errCode,

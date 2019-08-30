@@ -9,6 +9,7 @@ namespace ExLumina.SketchUp.API.Examples
 
         Example[] examples =
         {
+            new ImageLoader("Image Loader"),
             new PlainQuad("Plain Quad"),
             new QuadWithHole("Quad with a Hole"),
             new TwoQuadsSharedPoints("Two Quads with Shared Points"),
@@ -32,7 +33,7 @@ namespace ExLumina.SketchUp.API.Examples
 
             for (int index = 0; index < clbList.Items.Count; ++index)
             {
-                clbList.SetItemChecked(index, true);
+                clbList.SetItemChecked(index, false);
             }
         }
 
@@ -67,6 +68,11 @@ namespace ExLumina.SketchUp.API.Examples
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
