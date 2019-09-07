@@ -24,6 +24,17 @@ namespace ExLumina.SketchUp.API
             public double m24;
             public double m34;
             public double m44;
+
+            unsafe public double this[int r, int c]
+            {
+                get
+                {
+                    fixed (double* m = &m11)
+                    {
+                        return m[c * 4 + r];
+                    }
+                }
+            }
         }
     }
 }

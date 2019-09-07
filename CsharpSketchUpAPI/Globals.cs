@@ -41,6 +41,28 @@ namespace ExLumina.SketchUp.API
         public const int ModelVersion_SU2018 = 11;
         public const int ModelVersion_SU2019 = 12;
 
+        public const int ErrorNone = 0;
+        public const int ErrorNullPointerInput = 1;
+        public const int ErrorInvalidInput = 2;
+        public const int ErrorNullPointerOutput = 3;
+        public const int ErrorInvalidOutput = 4;
+        public const int ErrorOverwriteValid = 5;
+        public const int ErrorGeneric = 6;
+        public const int ErrorSerialization = 7;
+        public const int ErrorOutOfRange = 8;
+        public const int ErrorNoData = 9;
+        public const int ErrorInsufficientSize = 10;
+        public const int ErrorUnknownException = 11;
+        public const int ErrorModelInvalid = 12;
+        public const int ErrorModelVersion = 13;
+        public const int ErrorLayerLocked = 14;
+        public const int ErrorDuplicate = 15;
+        public const int ErrorPartialSuccess = 16;
+        public const int ErrorUnsupported = 17;
+        public const int ErrorInvalidArgument = 18;
+        public const int ErrorEntityLocked = 19;
+        public const int ErrorInvalidOperation = 20;
+
         public abstract class IntPtrRef
         {
             internal IntPtr intPtr;
@@ -73,101 +95,116 @@ namespace ExLumina.SketchUp.API
             int errCode,
             string msg)
         {
+            ThrowOut(
+                errCode,
+                msg,
+                s => throw new SketchUpException(s));
+
+        }
+
+        static void ThrowOut(
+            int errCode,
+            string msg,
+            Action<string> thrower)
+        {
             string suMsg;
 
             switch (errCode)
             {
-                case 0: // SU_ERROR_NONE 	
+                case ErrorNone:
                     return;
 
-                case 1: // SU_ERROR_NULL_POINTER_INPUT 	
+                case ErrorNullPointerInput:
                     suMsg = "A pointer for a required input was NULL.";
                     break;
 
-                case 2: // SU_ERROR_INVALID_INPUT 	
+                case ErrorInvalidInput:
                     suMsg = "An API object input to the function was not created properly.";
                     break;
 
-                case 3: // SU_ERROR_NULL_POINTER_OUTPUT 	
+                case ErrorNullPointerOutput:
                     suMsg = "A pointer for a required output was NULL.";
                     break;
 
-                case 4: // SU_ERROR_INVALID_OUTPUT 	
+                case ErrorInvalidOutput:
                     suMsg = "An API object to be written with output from the function was not created properly.";
                     break;
 
-                case 5: // SU_ERROR_OVERWRITE_VALID 	
+                case ErrorOverwriteValid:
                     suMsg = "Indicates that an input object reference already references an object where it was expected to be SU_INVALID.";
                     break;
 
-                case 6: // SU_ERROR_GENERIC 	
+                case ErrorGeneric:
                     suMsg = "Indicates an unspecified error.";
                     break;
 
-                case 7: // SU_ERROR_SERIALIZATION 	
+                case ErrorSerialization:
                     suMsg = "Indicate an error occurred during loading or saving of a file.";
                     break;
 
-                case 8: // SU_ERROR_OUT_OF_RANGE 	
+                case ErrorOutOfRange:
                     suMsg = "An input contained a value that was outside the range of allowed values.";
                     break;
 
-                case 9: // SU_ERROR_NO_DATA 	
+                case ErrorNoData:
                     suMsg = "The requested operation has no data to return to the user. This usually occurs when a request is made for data that is only available conditionally.";
                     break;
 
-                case 10: // SU_ERROR_INSUFFICIENT_SIZE 	
+                case ErrorInsufficientSize:
                     suMsg = "Indicates that the size of an output parameter is insufficient.";
                     break;
 
-                case 11: // SU_ERROR_UNKNOWN_EXCEPTION 	
+                case ErrorUnknownException:
                     suMsg = "An unknown exception occurred.";
                     break;
 
-                case 12: // SU_ERROR_MODEL_INVALID 	
+                case ErrorModelInvalid:
                     suMsg = "The model requested is invalid and cannot be loaded.";
                     break;
 
-                case 13: // SU_ERROR_MODEL_VERSION 	
+                case ErrorModelVersion:
                     suMsg = "The model cannot be loaded or saved due to an invalid version";
                     break;
 
-                case 14: // SU_ERROR_LAYER_LOCKED 	
+                case ErrorLayerLocked:
                     suMsg = "The layer that is being modified is locked.";
                     break;
 
-                case 15: // SU_ERROR_DUPLICATE 	
+                case ErrorDuplicate:
                     suMsg = "The user requested an operation that would result in duplicate data.";
                     break;
 
-                case 16: // SU_ERROR_PARTIAL_SUCCESS 	
+                case ErrorPartialSuccess:
                     suMsg = "The requested operation was not fully completed but it returned an intermediate successful result.";
                     break;
 
-                case 17: // SU_ERROR_UNSUPPORTED 	
+                case ErrorUnsupported:
                     suMsg = "The requested operation is not supported.";
                     break;
 
-                case 18: // SU_ERROR_INVALID_ARGUMENT 	
+                case ErrorInvalidArgument:
                     suMsg = "An argument contains invalid information.";
                     break;
 
-                case 19: // SU_ERROR_ENTITY_LOCKED 	
+                case ErrorEntityLocked:
                     suMsg = "The entity being modified is locked.";
                     break;
 
-                case 20: // SU_ERROR_INVALID_OPERATION 	
+                case ErrorInvalidOperation:
                     suMsg = "The requested operation is invalid.";
                     break;
+
                 default:
                     suMsg = "Unrecognized error code.";
                     break;
             }
 
-            throw new Exception(
-                $"Error: {errCode}\n" +
-                msg + "\n" +
-                suMsg);
+            thrower($"Error {errCode}\n" + msg +  "\n" + suMsg);
+
+            //throw new Exception(
+            //    $"Error: {errCode}\n" +
+            //    msg + "\n" +
+            //    suMsg);
         }
     }
 }

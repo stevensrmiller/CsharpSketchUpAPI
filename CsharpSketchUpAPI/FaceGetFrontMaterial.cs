@@ -18,7 +18,9 @@ namespace ExLumina.SketchUp.API
                 SUFaceGetFrontMaterial(
                     faceRef.intPtr,
                     out materialRef.intPtr),
-                "Could not get face front material.");
+                    "Could not get face front material",
+                    s => throw new NoMaterialException(s));
         }
     }
+
 }
