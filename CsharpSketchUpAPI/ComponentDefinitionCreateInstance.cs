@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUComponentDefinitionCreateInstance")]
         static extern int SUComponentDefinitionCreateInstance(
             IntPtr compDefRef,
-            ref IntPtr instanceRef);
+            out IntPtr instanceRef);
 
         public static void ComponentDefinitionCreateInstance(
             ComponentDefinitionRef compDefRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 SUComponentDefinitionCreateInstance(
                     compDefRef.intPtr,
-                    ref instanceRef.intPtr),
+                    out instanceRef.intPtr),
                 "Could not create instance.");
         }
     }

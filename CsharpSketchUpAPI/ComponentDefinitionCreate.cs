@@ -7,14 +7,14 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUComponentDefinitionCreate")]
         static extern int SUComponentDefinitionCreate(
-            ref IntPtr compDefRef);
+            out IntPtr compDefRef);
 
         public static void ComponentDefinitionCreate(
             ComponentDefinitionRef compDefRef)
         {
             ThrowOut(
                 SUComponentDefinitionCreate(
-                    ref compDefRef.intPtr),
+                    out compDefRef.intPtr),
                 "Could not create comp def.");
         }
     }

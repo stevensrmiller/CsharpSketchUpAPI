@@ -4,7 +4,7 @@ namespace ExLumina.SketchUp.API
 {
     public static partial class SU
     {
-        [StructLayout(LayoutKind.Sequential)]
+        [StructLayout(LayoutKind.Sequential, Pack = 8)]
         public struct Color
         {
             public byte red;

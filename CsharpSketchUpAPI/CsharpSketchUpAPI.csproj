@@ -45,8 +45,10 @@
     <Compile Include="ComponentDefinitionGetDescription.cs" />
     <Compile Include="ComponentInstanceGetDefinition.cs" />
     <Compile Include="ComponentInstanceGetTransform .cs" />
+    <Compile Include="DrawingElementSetMaterial.cs" />
     <Compile Include="EntitiesGetInstances.cs" />
     <Compile Include="EntitiesGetNumInstances.cs" />
+    <Compile Include="DrawingElementGetMaterial.cs" />
     <Compile Include="FaceGetInnerLoops.cs" />
     <Compile Include="FaceGetNumInnerLoops.cs" />
     <Compile Include="ComponentInstanceGetName.cs" />
@@ -69,13 +71,13 @@
     <Compile Include="LoopGetEdges.cs" />
     <Compile Include="LoopGetNumVertices.cs" />
     <Compile Include="ImageRepCreate.cs" />
+    <Compile Include="ComponentInstanceToDrawingElement.cs" />
     <Compile Include="MaterialGetNameLegacyBehavior.cs" />
     <Compile Include="ComponentDefinitionGetName.cs" />
     <Compile Include="MaterialGetColorizeType.cs" />
     <Compile Include="MaterialGetColor.cs" />
     <Compile Include="MaterialSetColorizeType.cs" />
     <Compile Include="MaterialGetTexture.cs" />
-    <Compile Include="NoMaterialException.cs" />
     <Compile Include="SketchUpException.cs" />
     <Compile Include="TextureGetColorizedImageRep.cs" />
     <Compile Include="TextureGetImageRep.cs" />

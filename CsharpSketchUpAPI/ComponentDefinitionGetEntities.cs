@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUComponentDefinitionGetEntities")]
         static extern int SUComponentDefinitionGetEntities(
             IntPtr compDefRef,
-            ref IntPtr entitiesRef);
+            out IntPtr entitiesRef);
 
         public static void ComponentDefinitionGetEntities(
             ComponentDefinitionRef compDefRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 SUComponentDefinitionGetEntities(
                     compDefRef.intPtr, 
-                    ref entitiesRef.intPtr),
+                    out entitiesRef.intPtr),
                 "Could not get comp def entities.");
         }
     }

@@ -1,8 +1,26 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
+/// <summary>
+/// A one-for-one set of C# wrappers that call SketchUp's C API functions.
+/// </summary>
+/// <remarks>
+/// C# allows C functions to be called entirely with C# code. This library uses that
+/// fact to allow a C# programmer who doesn't know, or want to work directly with, C
+/// to call the SketchUp C API functions in a manner that closesly matches the way
+/// the functions would be called in C. Thus, the SketchUp documentation on the C API
+/// is still a good reference for C# programmers who use this library.
+/// <para></para>
+/// A higher level (and much simpler) interface to the SketchUp C API is provided by
+/// the ExLumina.SketchUp.Factory namespace. Its functions can read and write SketchUp
+/// models, but it provides more direct functions for creating faces, component
+/// definitions, groups, instance, and texture mapping.
+/// </remarks>
 namespace ExLumina.SketchUp.API
 {
+    /// <summary>
+    /// All C API function wrappers are methods of this class.
+    /// </summary>
     public static partial class SU
     {
         private const string LIB = "SketchUpAPI";
@@ -63,49 +81,143 @@ namespace ExLumina.SketchUp.API
         public const int ErrorEntityLocked = 19;
         public const int ErrorInvalidOperation = 20;
 
+        public static readonly IntPtr Invalid = (IntPtr)0;
+
+        /// <summary>
+        /// Parent class to all reference wrapper classes.
+        /// </summary>
+        /// <remarks>
+        /// To ensure type-safety, subclasses of this class wrap
+        /// the C pointer for the various SketchUp data structures
+        /// this library implements. Those subclasses generally
+        /// add no code or members.
+        /// <para></para>
+        /// You will not need to subclass
+        /// this class yourself.
+        /// </remarks>
         public abstract class IntPtrRef
         {
             internal IntPtr intPtr;
         }
 
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class CameraRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class ComponentDefinitionRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class ComponentInstanceRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
+        public class DrawingElementRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class EdgeRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class EntitiesRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class FaceRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class GeometryInputRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class GroupRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class ImageRepRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class LoopInputRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class LoopRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class MaterialRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class ModelRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class OptionsManagerRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class OptionsProviderRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class StringRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class StylesRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class TextureRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class TextureWriterRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class TypedValueRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class UVHelperRef : IntPtrRef { }
+
+        /// <summary>
+        /// This class wraps the API structure of the same name.
+        /// </summary>
         public class VertexRef : IntPtrRef { }
 
         static void ThrowOut(
             int errCode,
             string msg)
-        {
-            ThrowOut(
-                errCode,
-                msg,
-                s => throw new SketchUpException(s));
-
-        }
-
-        static void ThrowOut(
-            int errCode,
-            string msg,
-            Action<string> thrower)
         {
             string suMsg;
 
@@ -199,12 +311,7 @@ namespace ExLumina.SketchUp.API
                     break;
             }
 
-            thrower($"Error {errCode}\n" + msg +  "\n" + suMsg);
-
-            //throw new Exception(
-            //    $"Error: {errCode}\n" +
-            //    msg + "\n" +
-            //    suMsg);
+            throw new SketchUpException($"Error {errCode}\n" + msg + "\n" + suMsg, errCode);
         }
     }
 }

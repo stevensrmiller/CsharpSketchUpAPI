@@ -1,0 +1,2569 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="CsharpSketchUpAPI" Title="CsharpSketchUpAPI Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.CameraCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000002.html" LinkGroup="CsharpSketchUpAPI">CameraCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.CameraRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000006D.html" LinkGroup="CsharpSketchUpAPI">CameraRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.CameraSetOrientation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000003.html" LinkGroup="CsharpSketchUpAPI">CameraSetOrientation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Color" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000004.html" LinkGroup="CsharpSketchUpAPI">Color Structure</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ColorOrder" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000009.html" LinkGroup="CsharpSketchUpAPI">ColorOrder Structure</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentDefinitionCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000000E.html" LinkGroup="CsharpSketchUpAPI">ComponentDefinitionCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentDefinitionCreateInstance" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000000F.html" LinkGroup="CsharpSketchUpAPI">ComponentDefinitionCreateInstance Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentDefinitionGetDescription" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000010.html" LinkGroup="CsharpSketchUpAPI">ComponentDefinitionGetDescription Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentDefinitionGetEntities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000011.html" LinkGroup="CsharpSketchUpAPI">ComponentDefinitionGetEntities Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentDefinitionGetName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000012.html" LinkGroup="CsharpSketchUpAPI">ComponentDefinitionGetName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentDefinitionRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000006E.html" LinkGroup="CsharpSketchUpAPI">ComponentDefinitionRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentDefinitionSetDescription" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000013.html" LinkGroup="CsharpSketchUpAPI">ComponentDefinitionSetDescription Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentDefinitionSetName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000014.html" LinkGroup="CsharpSketchUpAPI">ComponentDefinitionSetName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentInstanceGetDefinition" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000015.html" LinkGroup="CsharpSketchUpAPI">ComponentInstanceGetDefinition Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentInstanceGetName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000016.html" LinkGroup="CsharpSketchUpAPI">ComponentInstanceGetName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentInstanceGetTransform" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000017.html" LinkGroup="CsharpSketchUpAPI">ComponentInstanceGetTransform Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentInstanceRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000006F.html" LinkGroup="CsharpSketchUpAPI">ComponentInstanceRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentInstanceSetName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000018.html" LinkGroup="CsharpSketchUpAPI">ComponentInstanceSetName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentInstanceSetTransform" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000019.html" LinkGroup="CsharpSketchUpAPI">ComponentInstanceSetTransform Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ComponentInstanceToDrawingElement" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000001A.html" LinkGroup="CsharpSketchUpAPI">ComponentInstanceToDrawingElement Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CsharpSketchUpAPI Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000FF.html" LinkGroup="CsharpSketchUpAPI">CsharpSketchUpAPI Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.DrawingElementGetMaterial" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000001B.html" LinkGroup="CsharpSketchUpAPI">DrawingElementGetMaterial Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.DrawingElementRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000070.html" LinkGroup="CsharpSketchUpAPI">DrawingElementRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.DrawingElementSetMaterial" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000001C.html" LinkGroup="CsharpSketchUpAPI">DrawingElementSetMaterial Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EdgeGetEndVertex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000001D.html" LinkGroup="CsharpSketchUpAPI">EdgeGetEndVertex Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EdgeGetSmooth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000001E.html" LinkGroup="CsharpSketchUpAPI">EdgeGetSmooth Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EdgeGetSoft" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000001F.html" LinkGroup="CsharpSketchUpAPI">EdgeGetSoft Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EdgeGetStartVertex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000020.html" LinkGroup="CsharpSketchUpAPI">EdgeGetStartVertex Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EdgeRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000071.html" LinkGroup="CsharpSketchUpAPI">EdgeRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesAddFaces" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000021.html" LinkGroup="CsharpSketchUpAPI">EntitiesAddFaces Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesAddGroup" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000022.html" LinkGroup="CsharpSketchUpAPI">EntitiesAddGroup Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesAddInstance" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000023.html" LinkGroup="CsharpSketchUpAPI">EntitiesAddInstance Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesFill" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000024.html" LinkGroup="CsharpSketchUpAPI">EntitiesFill Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesGetFaces" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000025.html" LinkGroup="CsharpSketchUpAPI">EntitiesGetFaces Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesGetGroups" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000026.html" LinkGroup="CsharpSketchUpAPI">EntitiesGetGroups Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesGetInstances" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000027.html" LinkGroup="CsharpSketchUpAPI">EntitiesGetInstances Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesGetNumFaces" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000028.html" LinkGroup="CsharpSketchUpAPI">EntitiesGetNumFaces Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesGetNumGroups" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000029.html" LinkGroup="CsharpSketchUpAPI">EntitiesGetNumGroups Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesGetNumInstances" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000002A.html" LinkGroup="CsharpSketchUpAPI">EntitiesGetNumInstances Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.EntitiesRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000072.html" LinkGroup="CsharpSketchUpAPI">EntitiesRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SketchUpException.ErrorCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000CB.html" LinkGroup="CsharpSketchUpAPI">ErrorCode Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorDuplicate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000065.html" LinkGroup="CsharpSketchUpAPI">ErrorDuplicate Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorEntityLocked" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000069.html" LinkGroup="CsharpSketchUpAPI">ErrorEntityLocked Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorGeneric" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000005C.html" LinkGroup="CsharpSketchUpAPI">ErrorGeneric Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorInsufficientSize" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000060.html" LinkGroup="CsharpSketchUpAPI">ErrorInsufficientSize Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorInvalidArgument" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000068.html" LinkGroup="CsharpSketchUpAPI">ErrorInvalidArgument Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorInvalidInput" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000058.html" LinkGroup="CsharpSketchUpAPI">ErrorInvalidInput Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorInvalidOperation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000006A.html" LinkGroup="CsharpSketchUpAPI">ErrorInvalidOperation Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorInvalidOutput" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000005A.html" LinkGroup="CsharpSketchUpAPI">ErrorInvalidOutput Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorLayerLocked" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000064.html" LinkGroup="CsharpSketchUpAPI">ErrorLayerLocked Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorModelInvalid" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000062.html" LinkGroup="CsharpSketchUpAPI">ErrorModelInvalid Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorModelVersion" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000063.html" LinkGroup="CsharpSketchUpAPI">ErrorModelVersion Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorNoData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000005F.html" LinkGroup="CsharpSketchUpAPI">ErrorNoData Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorNone" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000056.html" LinkGroup="CsharpSketchUpAPI">ErrorNone Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorNullPointerInput" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000057.html" LinkGroup="CsharpSketchUpAPI">ErrorNullPointerInput Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorNullPointerOutput" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000059.html" LinkGroup="CsharpSketchUpAPI">ErrorNullPointerOutput Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorOutOfRange" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000005E.html" LinkGroup="CsharpSketchUpAPI">ErrorOutOfRange Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorOverwriteValid" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000005B.html" LinkGroup="CsharpSketchUpAPI">ErrorOverwriteValid Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorPartialSuccess" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000066.html" LinkGroup="CsharpSketchUpAPI">ErrorPartialSuccess Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorSerialization" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000005D.html" LinkGroup="CsharpSketchUpAPI">ErrorSerialization Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorUnknownException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000061.html" LinkGroup="CsharpSketchUpAPI">ErrorUnknownException Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ErrorUnsupported" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000067.html" LinkGroup="CsharpSketchUpAPI">ErrorUnsupported Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000000.html" LinkGroup="CsharpSketchUpAPI">ExLumina.SketchUp.API Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.FaceCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000002B.html" LinkGroup="CsharpSketchUpAPI">FaceCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.FaceGetEdges" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000002C.html" LinkGroup="CsharpSketchUpAPI">FaceGetEdges Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.FaceGetFrontMaterial" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000002D.html" LinkGroup="CsharpSketchUpAPI">FaceGetFrontMaterial Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.FaceGetInnerLoops" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000002E.html" LinkGroup="CsharpSketchUpAPI">FaceGetInnerLoops Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.FaceGetNumEdges" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000002F.html" LinkGroup="CsharpSketchUpAPI">FaceGetNumEdges Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.FaceGetNumInnerLoops" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000030.html" LinkGroup="CsharpSketchUpAPI">FaceGetNumInnerLoops Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.FaceGetOuterLoop" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000031.html" LinkGroup="CsharpSketchUpAPI">FaceGetOuterLoop Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.FaceGetUVHelper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000032.html" LinkGroup="CsharpSketchUpAPI">FaceGetUVHelper Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.FaceRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000073.html" LinkGroup="CsharpSketchUpAPI">FaceRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GeometryInputAddFace" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000033.html" LinkGroup="CsharpSketchUpAPI">GeometryInputAddFace Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GeometryInputAddVertex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000034.html" LinkGroup="CsharpSketchUpAPI">GeometryInputAddVertex Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GeometryInputCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000035.html" LinkGroup="CsharpSketchUpAPI">GeometryInputCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GeometryInputFaceAddInnerLoop" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000036.html" LinkGroup="CsharpSketchUpAPI">GeometryInputFaceAddInnerLoop Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GeometryInputFaceSetFrontMaterial" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000037.html" LinkGroup="CsharpSketchUpAPI">GeometryInputFaceSetFrontMaterial Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GeometryInputRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000074.html" LinkGroup="CsharpSketchUpAPI">GeometryInputRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GeometryInputRelease" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000038.html" LinkGroup="CsharpSketchUpAPI">GeometryInputRelease Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GetColorOrder" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000039.html" LinkGroup="CsharpSketchUpAPI">GetColorOrder Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GroupCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000084.html" LinkGroup="CsharpSketchUpAPI">GroupCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GroupGetEntities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000085.html" LinkGroup="CsharpSketchUpAPI">GroupGetEntities Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GroupGetName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000086.html" LinkGroup="CsharpSketchUpAPI">GroupGetName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GroupGetTransform" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000087.html" LinkGroup="CsharpSketchUpAPI">GroupGetTransform Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GroupRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000075.html" LinkGroup="CsharpSketchUpAPI">GroupRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GroupSetName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000088.html" LinkGroup="CsharpSketchUpAPI">GroupSetName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.GroupSetTransform" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000089.html" LinkGroup="CsharpSketchUpAPI">GroupSetTransform Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ImageRepCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000008A.html" LinkGroup="CsharpSketchUpAPI">ImageRepCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ImageRepGetData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000008B.html" LinkGroup="CsharpSketchUpAPI">ImageRepGetData Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ImageRepGetDataSize" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000008C.html" LinkGroup="CsharpSketchUpAPI">ImageRepGetDataSize Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ImageRepGetPixelDimensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000008D.html" LinkGroup="CsharpSketchUpAPI">ImageRepGetPixelDimensions Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ImageRepGetRowPadding" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000008E.html" LinkGroup="CsharpSketchUpAPI">ImageRepGetRowPadding Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ImageRepLoadFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000008F.html" LinkGroup="CsharpSketchUpAPI">ImageRepLoadFile Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ImageRepRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000076.html" LinkGroup="CsharpSketchUpAPI">ImageRepRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ImageRepRelease" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000090.html" LinkGroup="CsharpSketchUpAPI">ImageRepRelease Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ImageRepSetData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000091.html" LinkGroup="CsharpSketchUpAPI">ImageRepSetData Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Initialize" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000092.html" LinkGroup="CsharpSketchUpAPI">Initialize Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.IntPtrRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000006C.html" LinkGroup="CsharpSketchUpAPI">IntPtrRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Invalid" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000006B.html" LinkGroup="CsharpSketchUpAPI">Invalid Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.Item" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000EA.html" LinkGroup="CsharpSketchUpAPI">Item Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LengthFormat_Architectural" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000003C.html" LinkGroup="CsharpSketchUpAPI">LengthFormat_Architectural Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LengthFormat_Decimal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000003B.html" LinkGroup="CsharpSketchUpAPI">LengthFormat_Decimal Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LengthFormat_Engineering" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000003D.html" LinkGroup="CsharpSketchUpAPI">LengthFormat_Engineering Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LengthFormat_Fractional" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000003E.html" LinkGroup="CsharpSketchUpAPI">LengthFormat_Fractional Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopGetEdges" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000093.html" LinkGroup="CsharpSketchUpAPI">LoopGetEdges Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopGetNumVertices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000094.html" LinkGroup="CsharpSketchUpAPI">LoopGetNumVertices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopGetVertices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000095.html" LinkGroup="CsharpSketchUpAPI">LoopGetVertices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopInputAddVertexIndex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000096.html" LinkGroup="CsharpSketchUpAPI">LoopInputAddVertexIndex Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopInputCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000097.html" LinkGroup="CsharpSketchUpAPI">LoopInputCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopInputEdgeSetSmooth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000098.html" LinkGroup="CsharpSketchUpAPI">LoopInputEdgeSetSmooth Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopInputEdgeSetSoft" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000099.html" LinkGroup="CsharpSketchUpAPI">LoopInputEdgeSetSoft Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopInputRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000077.html" LinkGroup="CsharpSketchUpAPI">LoopInputRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopInputRelease" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000009A.html" LinkGroup="CsharpSketchUpAPI">LoopInputRelease Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.LoopRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000078.html" LinkGroup="CsharpSketchUpAPI">LoopRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialColorizeType_Shift" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000003F.html" LinkGroup="CsharpSketchUpAPI">MaterialColorizeType_Shift Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialColorizeType_Tint" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000040.html" LinkGroup="CsharpSketchUpAPI">MaterialColorizeType_Tint Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000009B.html" LinkGroup="CsharpSketchUpAPI">MaterialCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialGetColor" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000009C.html" LinkGroup="CsharpSketchUpAPI">MaterialGetColor Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialGetColorizeType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000009D.html" LinkGroup="CsharpSketchUpAPI">MaterialGetColorizeType Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialGetNameLegacyBehavior" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000009E.html" LinkGroup="CsharpSketchUpAPI">MaterialGetNameLegacyBehavior Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialGetTexture" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000009F.html" LinkGroup="CsharpSketchUpAPI">MaterialGetTexture Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialGetType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A0.html" LinkGroup="CsharpSketchUpAPI">MaterialGetType Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialInput" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A1.html" LinkGroup="CsharpSketchUpAPI">MaterialInput Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000079.html" LinkGroup="CsharpSketchUpAPI">MaterialRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialRelease" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A8.html" LinkGroup="CsharpSketchUpAPI">MaterialRelease Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialSetColor" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A9.html" LinkGroup="CsharpSketchUpAPI">MaterialSetColor Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialSetColorizeType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000AA.html" LinkGroup="CsharpSketchUpAPI">MaterialSetColorizeType Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialSetName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000AB.html" LinkGroup="CsharpSketchUpAPI">MaterialSetName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialSetTexture" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000AC.html" LinkGroup="CsharpSketchUpAPI">MaterialSetTexture Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialType_Colored" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000041.html" LinkGroup="CsharpSketchUpAPI">MaterialType_Colored Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialType_ColorizedTexture" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000043.html" LinkGroup="CsharpSketchUpAPI">MaterialType_ColorizedTexture Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialType_Textured" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000042.html" LinkGroup="CsharpSketchUpAPI">MaterialType_Textured Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MetersToInches" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000003A.html" LinkGroup="CsharpSketchUpAPI">MetersToInches Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelAddComponentDefinitions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000AD.html" LinkGroup="CsharpSketchUpAPI">ModelAddComponentDefinitions Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelAddMaterials" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000AE.html" LinkGroup="CsharpSketchUpAPI">ModelAddMaterials Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000AF.html" LinkGroup="CsharpSketchUpAPI">ModelCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelCreateFromFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B0.html" LinkGroup="CsharpSketchUpAPI">ModelCreateFromFile Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelGetCamera" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B1.html" LinkGroup="CsharpSketchUpAPI">ModelGetCamera Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelGetComponentDefinitions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B2.html" LinkGroup="CsharpSketchUpAPI">ModelGetComponentDefinitions Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelGetEntities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B3.html" LinkGroup="CsharpSketchUpAPI">ModelGetEntities Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelGetMaterials" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B4.html" LinkGroup="CsharpSketchUpAPI">ModelGetMaterials Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelGetNumComponentDefinitions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B5.html" LinkGroup="CsharpSketchUpAPI">ModelGetNumComponentDefinitions Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelGetNumMaterials" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B6.html" LinkGroup="CsharpSketchUpAPI">ModelGetNumMaterials Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelGetOptionsManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B7.html" LinkGroup="CsharpSketchUpAPI">ModelGetOptionsManager Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelGetStyles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B8.html" LinkGroup="CsharpSketchUpAPI">ModelGetStyles Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000007A.html" LinkGroup="CsharpSketchUpAPI">ModelRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelRelease" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000B9.html" LinkGroup="CsharpSketchUpAPI">ModelRelease Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelSaveToFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000BA.html" LinkGroup="CsharpSketchUpAPI">ModelSaveToFile Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelSaveToFileWithVersion" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000BB.html" LinkGroup="CsharpSketchUpAPI">ModelSaveToFileWithVersion Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelUnits_Centimeters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000047.html" LinkGroup="CsharpSketchUpAPI">ModelUnits_Centimeters Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelUnits_Feet" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000045.html" LinkGroup="CsharpSketchUpAPI">ModelUnits_Feet Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelUnits_Inches" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000044.html" LinkGroup="CsharpSketchUpAPI">ModelUnits_Inches Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelUnits_Meters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000048.html" LinkGroup="CsharpSketchUpAPI">ModelUnits_Meters Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelUnits_Millimeters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000046.html" LinkGroup="CsharpSketchUpAPI">ModelUnits_Millimeters Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU2013" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000004F.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU2013 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU2014" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000050.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU2014 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU2015" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000051.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU2015 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU2016" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000052.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU2016 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU2017" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000053.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU2017 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU2018" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000054.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU2018 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU2019" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000055.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU2019 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU3" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000049.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU3 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU4" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000004A.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU4 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU5" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000004B.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU5 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU6" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000004C.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU6 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU7" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000004D.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU7 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ModelVersion_SU8" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000004E.html" LinkGroup="CsharpSketchUpAPI">ModelVersion_SU8 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.OptionsManagerGetNumOptionsProviders" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000BC.html" LinkGroup="CsharpSketchUpAPI">OptionsManagerGetNumOptionsProviders Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.OptionsManagerGetOptionsProviderByName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000BD.html" LinkGroup="CsharpSketchUpAPI">OptionsManagerGetOptionsProviderByName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.OptionsManagerGetOptionsProviderNames" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000BE.html" LinkGroup="CsharpSketchUpAPI">OptionsManagerGetOptionsProviderNames Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.OptionsManagerRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000007B.html" LinkGroup="CsharpSketchUpAPI">OptionsManagerRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.OptionsProviderGetNumKeys" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000BF.html" LinkGroup="CsharpSketchUpAPI">OptionsProviderGetNumKeys Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.OptionsProviderRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000007C.html" LinkGroup="CsharpSketchUpAPI">OptionsProviderRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.OptionsProviderSetValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C0.html" LinkGroup="CsharpSketchUpAPI">OptionsProviderSetValue Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Point2D.Point2D" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C4.html" LinkGroup="CsharpSketchUpAPI">Point2D Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Point2D" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C1.html" LinkGroup="CsharpSketchUpAPI">Point2D Structure</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Point3D.Point3D" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C9.html" LinkGroup="CsharpSketchUpAPI">Point3D Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Point3D" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C5.html" LinkGroup="CsharpSketchUpAPI">Point3D Structure</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000001.html" LinkGroup="CsharpSketchUpAPI">SU Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialInput.SetUVCoords" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A6.html" LinkGroup="CsharpSketchUpAPI">SetUVCoords Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialInput.SetVertexIndices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A7.html" LinkGroup="CsharpSketchUpAPI">SetVertexIndices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SketchUpException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000CA.html" LinkGroup="CsharpSketchUpAPI">SketchUpException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SketchUpException.SketchUpException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000CC.html" LinkGroup="CsharpSketchUpAPI">SketchUpException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.StringCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000CD.html" LinkGroup="CsharpSketchUpAPI">StringCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.StringGetUTF8" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000CE.html" LinkGroup="CsharpSketchUpAPI">StringGetUTF8 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.StringGetUTF8Length" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000CF.html" LinkGroup="CsharpSketchUpAPI">StringGetUTF8Length Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.StringRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000007D.html" LinkGroup="CsharpSketchUpAPI">StringRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.StringRelease" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D0.html" LinkGroup="CsharpSketchUpAPI">StringRelease Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.StylesAddStyle" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D1.html" LinkGroup="CsharpSketchUpAPI">StylesAddStyle Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.StylesRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000007E.html" LinkGroup="CsharpSketchUpAPI">StylesRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Terminate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D2.html" LinkGroup="CsharpSketchUpAPI">Terminate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TextureCreateFromFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D3.html" LinkGroup="CsharpSketchUpAPI">TextureCreateFromFile Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TextureCreateFromImageRep" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D4.html" LinkGroup="CsharpSketchUpAPI">TextureCreateFromImageRep Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TextureGetColorizedImageRep" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D5.html" LinkGroup="CsharpSketchUpAPI">TextureGetColorizedImageRep Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TextureGetImageRep" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D6.html" LinkGroup="CsharpSketchUpAPI">TextureGetImageRep Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TextureRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000007F.html" LinkGroup="CsharpSketchUpAPI">TextureRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TextureRelease" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D7.html" LinkGroup="CsharpSketchUpAPI">TextureRelease Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TextureWriteToFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D8.html" LinkGroup="CsharpSketchUpAPI">TextureWriteToFile Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TextureWriterRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000080.html" LinkGroup="CsharpSketchUpAPI">TextureWriterRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000D9.html" LinkGroup="CsharpSketchUpAPI">Transformation Structure</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TransformationMultiply" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000EB.html" LinkGroup="CsharpSketchUpAPI">TransformationMultiply Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TransformationNonUniformScale" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000EC.html" LinkGroup="CsharpSketchUpAPI">TransformationNonUniformScale Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TransformationRotation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000ED.html" LinkGroup="CsharpSketchUpAPI">TransformationRotation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TransformationTranslation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000EE.html" LinkGroup="CsharpSketchUpAPI">TransformationTranslation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TypedValueCreate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000EF.html" LinkGroup="CsharpSketchUpAPI">TypedValueCreate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TypedValueRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000081.html" LinkGroup="CsharpSketchUpAPI">TypedValueRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TypedValueRelease" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F0.html" LinkGroup="CsharpSketchUpAPI">TypedValueRelease Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.TypedValueSetInt32" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F1.html" LinkGroup="CsharpSketchUpAPI">TypedValueSetInt32 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialInput.UVCoords" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A3.html" LinkGroup="CsharpSketchUpAPI">UVCoords Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.UVHelperGetFrontUVQ" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F2.html" LinkGroup="CsharpSketchUpAPI">UVHelperGetFrontUVQ Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.UVHelperRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000082.html" LinkGroup="CsharpSketchUpAPI">UVHelperRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.UVHelperRelease" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F3.html" LinkGroup="CsharpSketchUpAPI">UVHelperRelease Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.UVQ.UVQ" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F8.html" LinkGroup="CsharpSketchUpAPI">UVQ Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.UVQ" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F4.html" LinkGroup="CsharpSketchUpAPI">UVQ Structure</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Vector3D.Vector3D" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000FD.html" LinkGroup="CsharpSketchUpAPI">Vector3D Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Vector3D" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F9.html" LinkGroup="CsharpSketchUpAPI">Vector3D Structure</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.VertexGetPosition" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000FE.html" LinkGroup="CsharpSketchUpAPI">VertexGetPosition Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.VertexRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000083.html" LinkGroup="CsharpSketchUpAPI">VertexRef Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Color.alpha" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000008.html" LinkGroup="CsharpSketchUpAPI">alpha Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ColorOrder.alphaIndex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000000D.html" LinkGroup="CsharpSketchUpAPI">alphaIndex Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Color.blue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000007.html" LinkGroup="CsharpSketchUpAPI">blue Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ColorOrder.blueIndex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000000C.html" LinkGroup="CsharpSketchUpAPI">blueIndex Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Color.green" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000006.html" LinkGroup="CsharpSketchUpAPI">green Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ColorOrder.greenIndex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000000B.html" LinkGroup="CsharpSketchUpAPI">greenIndex Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m11" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000DA.html" LinkGroup="CsharpSketchUpAPI">m11 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m12" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000DE.html" LinkGroup="CsharpSketchUpAPI">m12 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m13" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E2.html" LinkGroup="CsharpSketchUpAPI">m13 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m14" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E6.html" LinkGroup="CsharpSketchUpAPI">m14 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m21" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000DB.html" LinkGroup="CsharpSketchUpAPI">m21 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m22" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000DF.html" LinkGroup="CsharpSketchUpAPI">m22 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m23" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E3.html" LinkGroup="CsharpSketchUpAPI">m23 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m24" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E7.html" LinkGroup="CsharpSketchUpAPI">m24 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m31" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000DC.html" LinkGroup="CsharpSketchUpAPI">m31 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m32" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E0.html" LinkGroup="CsharpSketchUpAPI">m32 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m33" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E4.html" LinkGroup="CsharpSketchUpAPI">m33 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m34" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E8.html" LinkGroup="CsharpSketchUpAPI">m34 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m41" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000DD.html" LinkGroup="CsharpSketchUpAPI">m41 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m42" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E1.html" LinkGroup="CsharpSketchUpAPI">m42 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m43" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E5.html" LinkGroup="CsharpSketchUpAPI">m43 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Transformation.m44" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000E9.html" LinkGroup="CsharpSketchUpAPI">m44 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialInput.materialRef" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A5.html" LinkGroup="CsharpSketchUpAPI">materialRef Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialInput.numUVCoords" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A2.html" LinkGroup="CsharpSketchUpAPI">numUVCoords Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.UVQ.q" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F7.html" LinkGroup="CsharpSketchUpAPI">q Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Color.red" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_0000000000000005.html" LinkGroup="CsharpSketchUpAPI">red Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.ColorOrder.redIndex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_000000000000000A.html" LinkGroup="CsharpSketchUpAPI">redIndex Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.UVQ.u" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F5.html" LinkGroup="CsharpSketchUpAPI">u Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.UVQ.v" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000F6.html" LinkGroup="CsharpSketchUpAPI">v Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.MaterialInput.vertexIndices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000A4.html" LinkGroup="CsharpSketchUpAPI">vertexIndices Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Point2D.x" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C2.html" LinkGroup="CsharpSketchUpAPI">x Field {ExLumina.SketchUp.API.SU.Point2D}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Point3D.x" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C6.html" LinkGroup="CsharpSketchUpAPI">x Field {ExLumina.SketchUp.API.SU.Point3D}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Vector3D.x" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000FA.html" LinkGroup="CsharpSketchUpAPI">x Field {ExLumina.SketchUp.API.SU.Vector3D}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Point2D.y" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C3.html" LinkGroup="CsharpSketchUpAPI">y Field {ExLumina.SketchUp.API.SU.Point2D}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Point3D.y" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C7.html" LinkGroup="CsharpSketchUpAPI">y Field {ExLumina.SketchUp.API.SU.Point3D}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Vector3D.y" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000FB.html" LinkGroup="CsharpSketchUpAPI">y Field {ExLumina.SketchUp.API.SU.Vector3D}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Point3D.z" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000C8.html" LinkGroup="CsharpSketchUpAPI">z Field {ExLumina.SketchUp.API.SU.Point3D}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.SU.Vector3D.z" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CsharpSketchUpAPI.chm::/topic_00000000000000FC.html" LinkGroup="CsharpSketchUpAPI">z Field {ExLumina.SketchUp.API.SU.Vector3D}</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

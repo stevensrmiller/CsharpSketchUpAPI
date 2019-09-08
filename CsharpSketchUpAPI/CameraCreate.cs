@@ -7,14 +7,14 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUCameraCreate")]
         static extern int SUCameraCreate(
-            ref IntPtr cameraRef);
+            out IntPtr cameraRef);
 
         public static void CameraCreate(
             CameraRef cameraRef)
         {
             ThrowOut(
                 SUCameraCreate(
-                    ref cameraRef.intPtr),
+                    out cameraRef.intPtr),
                 "Could not create camera.");
         }
     }

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="Examples" Title="Examples Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.Examples" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Examples.chm::/topic_0000000000000000.html" LinkGroup="Examples">ExLumina.SketchUp.API.Examples Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Examples Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Examples.chm::/topic_0000000000000007.html" LinkGroup="Examples">Examples Reference</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.Examples.SUHelper.Finalize" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Examples.chm::/topic_0000000000000006_overloads--.html" LinkGroup="Examples">Finalize Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.Examples.SUHelper.Initialize" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Examples.chm::/topic_0000000000000005.html" LinkGroup="Examples">Initialize Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.Examples.MainForm" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Examples.chm::/topic_0000000000000001.html" LinkGroup="Examples">MainForm Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.Examples.MainForm.MainForm" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Examples.chm::/topic_0000000000000002.html" LinkGroup="Examples">MainForm Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExLumina.SketchUp.API.Examples.SUHelper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Examples.chm::/topic_0000000000000004.html" LinkGroup="Examples">SUHelper Class</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+
