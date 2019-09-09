@@ -11,7 +11,7 @@ namespace ExLumina.SketchUp.API
             bool front,
             bool back,
             IntPtr textureWriterRef,
-            ref IntPtr uvHelperRef);
+            out IntPtr uvHelperRef);
 
         public static void FaceGetUVHelper(
             FaceRef faceRef,
@@ -26,7 +26,7 @@ namespace ExLumina.SketchUp.API
                     front,
                     back,
                     textureWriterRef.intPtr,
-                    ref uvHelperRef.intPtr),
+                    out uvHelperRef.intPtr),
                 "Could not get UVHelper.");
         }
     }

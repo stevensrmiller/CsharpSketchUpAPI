@@ -19,7 +19,7 @@ namespace ExLumina.SketchUp.API
         /// <remarks>
         /// The original error code value, the explanatory text from the SketchUp C API
         /// documentation, and an additional string passed to this exception's
-        /// constructure, become the Message property of this exception. You can also
+        /// constructor, become the Message property of this exception. You can also
         /// obtain the SketchUp C API error value as an integer from this class's
         /// ErrorCode property.
         /// </remarks>

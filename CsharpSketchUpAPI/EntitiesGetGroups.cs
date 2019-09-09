@@ -28,10 +28,10 @@ namespace ExLumina.SketchUp.API
                     out count),
                 "Could not get entities groups.");
 
-            for (int g = 0; g < groupRefs.Length; ++g)
+            for (int i = 0; i < groupRefs.Length; ++i)
             {
-                groupRefs[g] = new GroupRef();
-                groupRefs[g].intPtr = intPtrs[g];
+                groupRefs[i] = new GroupRef();
+                groupRefs[i].intPtr = intPtrs[i];
             }
         }
     }

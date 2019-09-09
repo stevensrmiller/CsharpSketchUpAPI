@@ -18,9 +18,9 @@ namespace ExLumina.SketchUp.API
         {
             IntPtr[] intPtrs = new IntPtr[materialRefs.Length];
 
-            for (int m = 0; m < intPtrs.Length; ++m)
+            for (int i = 0; i < intPtrs.Length; ++i)
             {
-                intPtrs[m] = materialRefs[m].intPtr;
+                intPtrs[i] = materialRefs[i].intPtr;
             }
 
             ThrowOut(

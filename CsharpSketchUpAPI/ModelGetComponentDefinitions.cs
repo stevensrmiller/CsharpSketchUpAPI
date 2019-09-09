@@ -28,10 +28,10 @@ namespace ExLumina.SketchUp.API
                     out numReturned),
                 "Could not get component definitions.");
 
-            for (int d = 0; d < numReturned; ++d)
+            for (int i = 0; i < numReturned; ++i)
             {
-                componentDefinitionRefs[d] = new ComponentDefinitionRef();
-                componentDefinitionRefs[d].intPtr = intPtrs[d];
+                componentDefinitionRefs[i] = new ComponentDefinitionRef();
+                componentDefinitionRefs[i].intPtr = intPtrs[i];
             }
         }
     }

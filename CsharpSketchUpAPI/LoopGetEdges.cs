@@ -28,10 +28,10 @@ namespace ExLumina.SketchUp.API
                     out count),
                 "Could not get loop edges.");
 
-            for (int e = 0; e < edgeRefs.Length; ++e)
+            for (int i = 0; i < edgeRefs.Length; ++i)
             {
-                edgeRefs[e] = new EdgeRef();
-                edgeRefs[e].intPtr = intPtrs[e];
+                edgeRefs[i] = new EdgeRef();
+                edgeRefs[i].intPtr = intPtrs[i];
             }
         }
     }

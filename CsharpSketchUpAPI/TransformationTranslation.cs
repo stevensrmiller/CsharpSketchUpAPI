@@ -18,7 +18,7 @@ namespace ExLumina.SketchUp.API
                 SUTransformationTranslation(
                     ref trans,
                     ref vector),
-                "Could not create translation.");
+                "Could not translate transformation.");
         }
     }
 }

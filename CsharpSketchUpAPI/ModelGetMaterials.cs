@@ -28,10 +28,10 @@ namespace ExLumina.SketchUp.API
                     out numReturned),
                 "Could not get materials.");
 
-            for (int m = 0; m < numReturned; ++m)
+            for (int i = 0; i < numReturned; ++i)
             {
-                materialRefs[m] = new MaterialRef();
-                materialRefs[m].intPtr = intPtrs[m];
+                materialRefs[i] = new MaterialRef();
+                materialRefs[i].intPtr = intPtrs[i];
             }
         }
     }

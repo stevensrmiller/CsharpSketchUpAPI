@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUEdgeGetEndVertex")]
         static extern int EdgeGetEndVertex(
             IntPtr edgeRef,
-            ref IntPtr vertexRef);
+            out IntPtr vertexRef);
 
         public static void EdgeGetEndVertex(
             EdgeRef edgeRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 EdgeGetEndVertex(
                     edgeRef.intPtr,
-                    ref vertexRef.intPtr),
+                    out vertexRef.intPtr),
                 "Could not get end vertex.");
         }
     }

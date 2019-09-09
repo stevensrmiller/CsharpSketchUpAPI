@@ -9,7 +9,7 @@ namespace ExLumina.SketchUp.API
         static extern int SUOptionsManagerGetOptionsProviderByName(
             IntPtr managerRef,
             string name,
-            ref IntPtr providerRef);
+            out IntPtr providerRef);
 
         public static void OptionsManagerGetOptionsProviderByName(
             OptionsManagerRef managerRef,
@@ -19,7 +19,8 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 SUOptionsManagerGetOptionsProviderByName(
                     managerRef.intPtr,
-                    name, ref providerRef.intPtr),
+                    name, 
+                    out providerRef.intPtr),
                 "Could not get provider.");
         }
     }

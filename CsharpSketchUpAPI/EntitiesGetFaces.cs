@@ -28,10 +28,10 @@ namespace ExLumina.SketchUp.API
                     out count),
                 "Could not get entities faces.");
 
-            for (int f = 0; f < faceRefs.Length; ++f)
+            for (int i = 0; i < faceRefs.Length; ++i)
             {
-                faceRefs[f] = new FaceRef();
-                faceRefs[f].intPtr = intPtrs[f];
+                faceRefs[i] = new FaceRef();
+                faceRefs[i].intPtr = intPtrs[i];
             }
         }
     }

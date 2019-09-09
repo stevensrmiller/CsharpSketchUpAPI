@@ -28,9 +28,9 @@ namespace ExLumina.SketchUp.API
                     out retrieved),
                 "Could not get provider names.");
 
-            for (int s = 0; s < strings.Length; ++s)
+            for (int i = 0; i < strings.Length; ++i)
             {
-                strings[s].intPtr = intPtrs[s];
+                strings[i].intPtr = intPtrs[i];
             }
         }
     }

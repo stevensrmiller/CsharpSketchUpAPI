@@ -7,7 +7,7 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUTextureCreateFromFile")]
         static extern int SUTextureCreateFromFile(
-            ref IntPtr textureRef,
+            out IntPtr textureRef,
             string path,
             double sScale,
             double tScale);
@@ -22,7 +22,7 @@ namespace ExLumina.SketchUp.API
         {
             ThrowOut(
                 SUTextureCreateFromFile(
-                    ref textureRef.intPtr,
+                    out textureRef.intPtr,
                     path,
                     sScale,
                     tScale),

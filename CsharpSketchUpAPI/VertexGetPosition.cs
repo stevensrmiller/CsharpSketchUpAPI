@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUVertexGetPosition")]
         static extern int VertexGetPosition(
             IntPtr vertexRef,
-            ref Point3D point);
+            out Point3D point);
 
         public static void VertexGetPosition(
             VertexRef vertexRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 VertexGetPosition(
                     vertexRef.intPtr,
-                    ref point),
+                    out point),
                 "Could not get vertex position.");
         }
     }

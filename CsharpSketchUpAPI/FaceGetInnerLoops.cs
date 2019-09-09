@@ -28,10 +28,10 @@ namespace ExLumina.SketchUp.API
                     out count),
                 "Could not get inner loops.");
 
-            for (int l = 0; l < loopRefs.Length; ++l)
+            for (int i = 0; i < loopRefs.Length; ++i)
             {
-                loopRefs[l] = new LoopRef();
-                loopRefs[l].intPtr = intPtrs[l];
+                loopRefs[i] = new LoopRef();
+                loopRefs[i].intPtr = intPtrs[i];
             }
         }
     }

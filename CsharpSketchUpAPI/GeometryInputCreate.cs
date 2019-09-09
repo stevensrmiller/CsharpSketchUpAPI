@@ -7,14 +7,14 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUGeometryInputCreate")]
         static extern int SUGeometryInputCreate(
-            ref IntPtr geometryInputRef);
+            out IntPtr geometryInputRef);
 
         public static void GeometryInputCreate(
             GeometryInputRef geometryInputRef)
         {
             ThrowOut(
                 SUGeometryInputCreate(
-                    ref geometryInputRef.intPtr),
+                    out geometryInputRef.intPtr),
                 "Could not create geometry input.");
         }
     }

@@ -7,7 +7,7 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUModelCreateFromFile")]
         static extern int SUModelCreateFromFile(
-            ref IntPtr modelRef,
+            out IntPtr modelRef,
             string name);
 
         public static void ModelCreateFromFile(
@@ -16,7 +16,7 @@ namespace ExLumina.SketchUp.API
         {
             ThrowOut(
                 SUModelCreateFromFile(
-                    ref modelRef.intPtr,
+                    out modelRef.intPtr,
                     name),
                 "Could not create model from file.");
         }

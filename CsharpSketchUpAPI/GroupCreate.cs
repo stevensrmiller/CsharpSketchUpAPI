@@ -7,14 +7,14 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUGroupCreate")]
         static extern int SUGroupCreate(
-            ref IntPtr groupRef);
+            out IntPtr groupRef);
 
         public static void GroupCreate(
             GroupRef groupRef)
         {
             ThrowOut(
                 SUGroupCreate(
-                    ref groupRef.intPtr),
+                    out groupRef.intPtr),
                 "Could not create group.");
         }
     }

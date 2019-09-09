@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUModelGetEntities")]
         static extern int SUModelGetEntities(
             IntPtr modelRef,
-            ref IntPtr entitiesRef);
+            out IntPtr entitiesRef);
 
         public static void ModelGetEntities(
             ModelRef modelRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 SUModelGetEntities(
                     modelRef.intPtr,
-                    ref entitiesRef.intPtr),
+                    out entitiesRef.intPtr),
                 "Could not get model entities.");
         }
     }

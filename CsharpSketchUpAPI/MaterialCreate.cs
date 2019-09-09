@@ -7,14 +7,14 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUMaterialCreate")]
         static extern int SUMaterialCreate(
-            ref IntPtr materialRef);
+            out IntPtr materialRef);
 
         public static void MaterialCreate(
             MaterialRef materialRef)
         {
             ThrowOut(
                 SUMaterialCreate(
-                    ref materialRef.intPtr),
+                    out materialRef.intPtr),
                 "Could not create material.");
         }
     }

@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUModelGetOptionsManager")]
         static extern int SUModelGetOptionsManager(
             IntPtr modelRef,
-            ref IntPtr managerRef);
+            out IntPtr managerRef);
 
         public static void ModelGetOptionsManager(
             ModelRef modelRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 SUModelGetOptionsManager(
                     modelRef.intPtr,
-                    ref managerRef.intPtr),
+                    out managerRef.intPtr),
                 "Could not get options manager.");
         }
     }

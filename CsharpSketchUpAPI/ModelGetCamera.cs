@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUModelGetCamera")]
         static extern int SUModelGetCamera(
             IntPtr modelRef,
-            ref IntPtr cameraRef);
+            out IntPtr cameraRef);
 
         public static void ModelGetCamera(
             ModelRef modelRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 SUModelGetCamera(
                     modelRef.intPtr,
-                    ref cameraRef.intPtr),
+                    out cameraRef.intPtr),
                 "Could not get camera.");
         }
     }

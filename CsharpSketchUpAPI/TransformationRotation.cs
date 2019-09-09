@@ -24,7 +24,7 @@ namespace ExLumina.SketchUp.API
                     ref point,
                     ref vector,
                     angle),
-                "Could not create rotation.");
+                "Could not rotate transformation.");
         }
     }
 }

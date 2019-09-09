@@ -24,7 +24,7 @@ namespace ExLumina.SketchUp.API
                     xScale,
                     yScale,
                     zScale),
-                "Could not create scale.");
+                "Could not scale transformation.");
         }
     }
 }

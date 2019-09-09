@@ -7,7 +7,7 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUTextureCreateFromImageRep")]
         static extern int SUTextureCreateFromImageRep(
-            ref IntPtr textureRef,
+            out IntPtr textureRef,
             IntPtr imageRepRef);
 
         public static void TextureCreateFromImageRep(
@@ -16,7 +16,7 @@ namespace ExLumina.SketchUp.API
         {
             ThrowOut(
                 SUTextureCreateFromImageRep(
-                    ref textureRef.intPtr,
+                    out textureRef.intPtr,
                     imageRepRef.intPtr),
                 "Could not create texture from image rep.");
         }

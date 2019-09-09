@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUFaceGetOuterLoop")]
         static extern int FaceGetOuterLoop(
             IntPtr faceRef,
-            ref IntPtr loopRef);
+            out IntPtr loopRef);
 
         public static void FaceGetOuterLoop(
             FaceRef faceRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 FaceGetOuterLoop(
                     faceRef.intPtr,
-                    ref loopRef.intPtr),
+                    out loopRef.intPtr),
                 "Could not get outer loop.");
         }
     }

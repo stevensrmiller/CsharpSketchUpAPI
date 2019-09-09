@@ -21,7 +21,7 @@ namespace ExLumina.SketchUp.API
                     ref trans1,
                     ref trans2,
                     ref outTrans),
-                "Could not create multiply.");
+                "Could not multiply transformations.");
         }
     }
 }

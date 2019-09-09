@@ -7,14 +7,14 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUImageRepCreate")]
         static extern int SUImageRepCreate(
-            ref IntPtr imageRepRef);
+            out IntPtr imageRepRef);
 
         public static void ImageRepCreate(
             ImageRepRef imageRepRef)
         {
             ThrowOut(
                 SUImageRepCreate(
-                    ref imageRepRef.intPtr),
+                    out imageRepRef.intPtr),
                 "Could not create image rep.");
         }
     }

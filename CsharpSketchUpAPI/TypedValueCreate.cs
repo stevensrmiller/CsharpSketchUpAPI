@@ -7,14 +7,14 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUTypedValueCreate")]
         static extern int SUTypedValueCreate(
-            ref IntPtr typedValueRef);
+            out IntPtr typedValueRef);
 
         public static void TypedValueCreate(
             TypedValueRef typedValueRef)
         {
             ThrowOut(
                 SUTypedValueCreate(
-                    ref typedValueRef.intPtr),
+                    out typedValueRef.intPtr),
                 "Could not create typed value.");
         }
     }

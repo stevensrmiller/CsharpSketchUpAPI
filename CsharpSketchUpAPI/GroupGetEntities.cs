@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUGroupGetEntities")]
         static extern int SUGroupGetEntities(
             IntPtr groupRef,
-            ref IntPtr entitiesRef);
+            out IntPtr entitiesRef);
 
         public static void GroupGetEntities(
             GroupRef groupRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 SUGroupGetEntities(
                     groupRef.intPtr,
-                    ref entitiesRef.intPtr),
+                    out entitiesRef.intPtr),
                 "Could not get group entities.");
         }
     }

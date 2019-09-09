@@ -7,14 +7,14 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SULoopInputCreate")]
         static extern int SULoopInputCreate(
-            ref IntPtr loopInputRef);
+            out IntPtr loopInputRef);
 
         public static void LoopInputCreate(
             LoopInputRef loopInputRef)
         {
             ThrowOut(
                 SULoopInputCreate(
-                    ref loopInputRef.intPtr),
+                    out loopInputRef.intPtr),
                 "Could not loop input.");
         }
     }

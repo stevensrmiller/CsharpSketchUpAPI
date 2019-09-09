@@ -7,14 +7,14 @@ namespace ExLumina.SketchUp.API
     {
         [DllImport(LIB, EntryPoint = "SUModelCreate")]
         static extern int SUModelCreate(
-            ref IntPtr modelRef);
+            out IntPtr modelRef);
 
         public static void ModelCreate(
             ModelRef modelRef)
         {
             ThrowOut(
                 SUModelCreate(
-                    ref modelRef.intPtr),
+                    out modelRef.intPtr),
                 "Could not create model.");
         }
     }

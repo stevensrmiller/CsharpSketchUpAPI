@@ -8,7 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUEdgeGetStartVertex")]
         static extern int EdgeGetStartVertex(
             IntPtr edgeRef,
-            ref IntPtr vertexRef);
+            out IntPtr vertexRef);
 
         public static void EdgeGetStartVertex(
             EdgeRef edgeRef,
@@ -17,7 +17,7 @@ namespace ExLumina.SketchUp.API
             ThrowOut(
                 EdgeGetStartVertex(
                     edgeRef.intPtr,
-                    ref vertexRef.intPtr),
+                    out vertexRef.intPtr),
                 "Could not get start vertex.");
         }
     }

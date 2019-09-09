@@ -28,10 +28,10 @@ namespace ExLumina.SketchUp.API
                     out count),
                 "Could not get loop vertices.");
 
-            for (int v = 0; v < vertexRefs.Length; ++v)
+            for (int i = 0; i < vertexRefs.Length; ++i)
             {
-                vertexRefs[v] = new VertexRef();
-                vertexRefs[v].intPtr = intPtrs[v];
+                vertexRefs[i] = new VertexRef();
+                vertexRefs[i].intPtr = intPtrs[i];
             }
         }
     }
