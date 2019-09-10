@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUTextureCreateFromFile")]
         static extern int SUTextureCreateFromFile(
             out IntPtr textureRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string path,
             double sScale,
             double tScale);

@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUOptionsManagerGetOptionsProviderByName")]
         static extern int SUOptionsManagerGetOptionsProviderByName(
             IntPtr managerRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string name,
             out IntPtr providerRef);
 

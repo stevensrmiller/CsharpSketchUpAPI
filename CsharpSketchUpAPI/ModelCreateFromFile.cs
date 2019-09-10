@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUModelCreateFromFile")]
         static extern int SUModelCreateFromFile(
             out IntPtr modelRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string name);
 
         public static void ModelCreateFromFile(

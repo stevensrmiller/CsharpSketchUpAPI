@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUTextureWriteToFile")]
         static extern int SUTextureWriteToFile(
             IntPtr textureRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string path);
 
         public static void TextureWriteToFile(

@@ -25,7 +25,7 @@ namespace ExLumina.SketchUp.API.Examples
             {
                 SU.ImageRepRef suImageRepRef = new SU.ImageRepRef();
                 SU.ImageRepCreate(suImageRepRef);
-                SU.ImageRepLoadFile(suImageRepRef, "Orange.png");
+                SU.ImageRepLoadFile(suImageRepRef, "PlaceHolderRGBY.png");
 
                 long width;
                 long height;

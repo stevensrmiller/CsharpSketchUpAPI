@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUImageRepLoadFile")]
         static extern int SUImageRepLoadFile(
             IntPtr imageRepRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string path);
 
         public static void ImageRepLoadFile(

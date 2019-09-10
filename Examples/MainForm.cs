@@ -5,7 +5,9 @@ namespace ExLumina.SketchUp.API.Examples
 {
     public partial class MainForm : Form
     {
-        string location;
+        string location =
+            Environment.GetFolderPath(
+                Environment.SpecialFolder.UserProfile);
 
         Example[] examples =
         {
@@ -56,6 +58,8 @@ namespace ExLumina.SketchUp.API.Examples
             FolderBrowserDialog fd = new FolderBrowserDialog();
             fd.Description = "Select the location where you want the example " +
                              "programs to create their SketchUp output files.";
+
+            fd.SelectedPath = location;
 
             if (fd.ShowDialog() == DialogResult.OK)
             {

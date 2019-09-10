@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUOptionsProviderSetValue")]
         static extern int SUOptionsProviderSetValue(
             IntPtr providerRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string naem,
             IntPtr val);
 

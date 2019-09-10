@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUComponentInstanceSetName")]
         static extern int SUComponentInstanceSetName(
             IntPtr instanceRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string name);
 
         public static void ComponentInstanceSetName(

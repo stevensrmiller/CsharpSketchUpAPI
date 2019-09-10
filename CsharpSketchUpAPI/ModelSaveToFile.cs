@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUModelSaveToFile")]
         static extern int SUModelSaveToFile(
             IntPtr modelRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string name);
 
         public static void ModelSaveToFile(

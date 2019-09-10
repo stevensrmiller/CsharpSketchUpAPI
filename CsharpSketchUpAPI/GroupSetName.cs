@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUGroupSetName")]
         static extern int SUGroupSetName(
             IntPtr groupRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string name);
 
         public static void GroupSetName(

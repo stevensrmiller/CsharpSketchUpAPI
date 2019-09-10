@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUModelSaveToFileWithVersion")]
         static extern int SUModelSaveToFileWithVersion(
             IntPtr modelRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string name,
             int version); // really an enum, not an int
 

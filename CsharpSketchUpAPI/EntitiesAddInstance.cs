@@ -9,6 +9,7 @@ namespace ExLumina.SketchUp.API
         static extern int SUEntitiesAddInstance(
             IntPtr entitiesRef,
             IntPtr instanceRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string name);
 
         public static void EntitiesAddInstance(

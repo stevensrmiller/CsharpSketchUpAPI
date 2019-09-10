@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUMaterialSetName")]
         static extern int SUMaterialSetName(
             IntPtr materialRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string name);
 
         public static void MaterialSetName(

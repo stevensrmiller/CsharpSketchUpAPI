@@ -8,6 +8,7 @@ namespace ExLumina.SketchUp.API
         [DllImport(LIB, EntryPoint = "SUStylesAddStyle")]
         static extern int SUStylesAddStyle(
             IntPtr stylesRef,
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
             string path,
             bool activate);
 
