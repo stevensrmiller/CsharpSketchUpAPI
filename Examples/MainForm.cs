@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace ExLumina.SketchUp.API.Examples
+namespace ExLumina.Examples.SketchUp.API
 {
     public partial class MainForm : Form
     {

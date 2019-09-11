@@ -1,4 +1,6 @@
-﻿namespace ExLumina.SketchUp.API.Examples
+﻿using ExLumina.SketchUp.API;
+
+namespace ExLumina.Examples.SketchUp.API
 {
     class TexturedQuad : Example
     {

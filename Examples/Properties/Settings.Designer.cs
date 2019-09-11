@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExLumina.SketchUp.API.Examples.Properties {
+namespace ExLumina.Examples.SketchUp.API.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

@@ -1,6 +1,6 @@
-﻿using System;
+﻿using ExLumina.SketchUp.API;
 
-namespace ExLumina.SketchUp.API.Examples
+namespace ExLumina.Examples.SketchUp.API
 {
     class TwoQuadsParentChild : Example
     {

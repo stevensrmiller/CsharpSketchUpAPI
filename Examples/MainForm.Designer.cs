@@ -1,4 +1,4 @@
-﻿namespace ExLumina.SketchUp.API.Examples
+﻿namespace ExLumina.Examples.SketchUp.API
 {
     partial class MainForm
     {

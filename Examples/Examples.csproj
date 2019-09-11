@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{00EAE63D-F436-4661-B68C-DDCF5DFC8175}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ExLumina.SketchUp.API.Examples</RootNamespace>
+    <RootNamespace>ExLumina.Examples.SketchUp.API</RootNamespace>
     <AssemblyName>Examples</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -32,9 +32,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ExLumina.SketchUp.API.Examples.Program</StartupObject>
+    <StartupObject>ExLumina.Examples.SketchUp.API.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CsharpSketchUpAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\ProgramData\Shared Documents\Ex Lumina\Projects\SketchUpAPI\CsharpSketchUpAPI\CsharpSketchUpAPI\bin\Release\CsharpSketchUpAPI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -94,12 +98,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CsharpSketchUpAPI\CsharpSketchUpAPI.csproj">
-      <Project>{84caf3b2-9451-4423-91b1-167d75bc25c8}</Project>
-      <Name>CsharpSketchUpAPI</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="PlaceHolderRGBY.png">

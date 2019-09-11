@@ -1,6 +1,7 @@
-﻿using System;
+﻿using ExLumina.SketchUp.API;
+using System;
 
-namespace ExLumina.SketchUp.API.Examples
+namespace ExLumina.Examples.SketchUp.API
 {
     class SixQuadFan : Example
     {
