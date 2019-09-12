@@ -46,6 +46,7 @@
     <Compile Include="ComponentDefinitionGetDescription.cs" />
     <Compile Include="ComponentInstanceGetDefinition.cs" />
     <Compile Include="ComponentInstanceGetTransform .cs" />
+    <Compile Include="GroupToDrawingElement.cs" />
     <Compile Include="DrawingElementSetMaterial.cs" />
     <Compile Include="EntitiesGetInstances.cs" />
     <Compile Include="EntitiesGetNumInstances.cs" />
