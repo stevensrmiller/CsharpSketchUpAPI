@@ -25,7 +25,7 @@ a question arose recently in the SketchUp developer forums as to the propriety o
 posting these libraries in public GitHub repositories. A SketchUp team member
 understandably advised holding off from doing that until we get explicit permission
 from Trimble, SketchUp's owner. Until then, if you need these libraries and can't
-get them elsewhere, contact us directly at steve@millerhousehold.com.
+get them elsewhere, contact us directly at info@exlumina.com.
 
 [devcenter]:
   https://extensions.sketchup.com/en/developer_center/sketchup_sdk
