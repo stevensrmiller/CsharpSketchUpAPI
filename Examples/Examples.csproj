@@ -59,17 +59,17 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ImageLoader.cs" />
-    <Compile Include="SixQuadFan.cs" />
-    <Compile Include="TwoQuadsSeamlessTexture.cs" />
-    <Compile Include="TexturedQuad.cs" />
-    <Compile Include="Red Quad.cs" />
-    <Compile Include="TwoQuadsParentChild.cs" />
-    <Compile Include="TwoQuadsUnweldedEdge.cs" />
-    <Compile Include="TwoQuadsWeldedEdge.cs" />
-    <Compile Include="TwoQuadsSharedPoints.cs" />
-    <Compile Include="QuadWithHole.cs" />
-    <Compile Include="PlainQuad.cs" />
+    <Compile Include="Examples\ImageLoader.cs" />
+    <Compile Include="Examples\SixQuadFan.cs" />
+    <Compile Include="Examples\TwoQuadsSeamlessTexture.cs" />
+    <Compile Include="Examples\TexturedQuad.cs" />
+    <Compile Include="Examples\Red Quad.cs" />
+    <Compile Include="Examples\TwoQuadsParentChild.cs" />
+    <Compile Include="Examples\TwoQuadsUnweldedEdge.cs" />
+    <Compile Include="Examples\TwoQuadsWeldedEdge.cs" />
+    <Compile Include="Examples\TwoQuadsSharedPoints.cs" />
+    <Compile Include="Examples\QuadWithHole.cs" />
+    <Compile Include="Examples\PlainQuad.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SUHelper.cs" />
@@ -101,12 +101,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PlaceHolderRGBY.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SketchUpAPI.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SketchUpCommonPreferences.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Base.style">

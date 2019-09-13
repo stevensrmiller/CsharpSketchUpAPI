@@ -1,10 +1,13 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace ExLumina.Examples.SketchUp.API
 {
     public partial class MainForm : Form
     {
+        const string outputDirectory = @"\Factory Output";
+
         string location =
             Environment.GetFolderPath(
                 Environment.SpecialFolder.UserProfile);
@@ -36,6 +39,11 @@ namespace ExLumina.Examples.SketchUp.API
             for (int index = 0; index < clbList.Items.Count; ++index)
             {
                 clbList.SetItemChecked(index, false);
+            }
+
+            if (Directory.Exists(location + outputDirectory))
+            {
+                location += outputDirectory;
             }
         }
 
