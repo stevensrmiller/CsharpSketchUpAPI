@@ -17,15 +17,5 @@ Not all API functions are wrapped. However, with priority having gone to those n
 
 Note
 ----
-To use this library, you must also have the two SketchUp C API
-dynamic-link libraries, SketchUpAPI.dll, and SketchUpCommonPreferences.dll.
-Authorized SketchUp developers can download these from the [SketchUp Developer Center][devcenter].
-Developers (like us) can also distribute applications with these libraries. However,
-a question arose recently in the SketchUp developer forums as to the propriety of
-posting these libraries in public GitHub repositories. A SketchUp team member
-understandably advised holding off from doing that until we get explicit permission
-from Trimble, SketchUp's owner. Until then, if you need these libraries and can't
-get them elsewhere, contact us directly at info@exlumina.com.
-
-[devcenter]:
-  https://extensions.sketchup.com/en/developer_center/sketchup_sdk
+This software includes third-party libraries. Please read the
+limitations on their use in the LICENSE.md file.
